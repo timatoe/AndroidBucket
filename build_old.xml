@@ -17,7 +17,7 @@
              The name of the output directory. Default is 'bin'.
 
          For other overridable properties, look at the beginning of the rules
-         files in the SDK, at tools/ant/build.xml
+         files in the SDK, at tools/build_old.xml.xml
 
          Properties related to the SDK location or the project target should
          be updated using the 'android' tool with the 'update' action.
@@ -83,7 +83,7 @@
              - copy/paste the target into this file, *before* the
                <import> task.
              - customize it to your needs.
-         - Customize the whole content of build.xml
+         - Customize the whole contentbuild_old.xml.xml
              - copy/paste the content of the rules files (minus the top node)
                into this file, replacing the <import> task.
              - customize to your needs.
